@@ -1,9 +1,12 @@
 {
-  "name": "cf-pages-site",
+  "name": "pagest",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p dist && cp src/index.html dist/",
-    "deploy": "echo 'Deploy script completed (Cloudflare handles deployment)'"
+    "build": "vite build",       // or your build command
+    "deploy": "wrangler publish"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "wrangler": "^3.0.0",
+    "vite": "^4.0.0"             // optional, if using Vite
+  }
 }
