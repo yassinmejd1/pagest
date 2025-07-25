@@ -2,10 +2,10 @@
   "name": "pagest",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo 'Run your build here, e.g. vite build or custom command'",
-    "deploy": "wrangler publish"
+    "build": "echo 'Static site, no build needed'",
+    "deploy": "npx wrangler deploy"
   },
   "devDependencies": {
-    "wrangler": "^3.114.11"
+    "wrangler": "^4.26.0"
   }
 }
