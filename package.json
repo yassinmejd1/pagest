@@ -2,11 +2,10 @@
   "name": "pagest",
   "version": "1.0.0",
   "scripts": {
-    "build": "vite build",       // or your build command
+    "build": "echo 'Run your build here, e.g. vite build or custom command'",
     "deploy": "wrangler publish"
   },
   "devDependencies": {
-    "wrangler": "^3.0.0",
-    "vite": "^4.0.0"             // optional, if using Vite
+    "wrangler": "^3.114.11"
   }
 }
