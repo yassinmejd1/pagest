@@ -1,0 +1,9 @@
+{
+  "name": "cf-pages-site",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist && cp src/index.html dist/",
+    "deploy": "echo 'Deploy script completed (Cloudflare handles deployment)'"
+  },
+  "devDependencies": {}
+}
